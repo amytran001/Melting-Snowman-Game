@@ -1,0 +1,53 @@
+body {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+}
+.conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.conatiner img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.melting-snowman {
+    width: 400px;
+    height: 400px;
+    border: 2px solid lightblue;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.word {
+    font-size: 2rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+.letters {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+.letters button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: none;
+    background-color: rgb(101, 101, 189);
+    color: white;
+    cursor: pointer;
+}
+.message {
+    font-size: 1.5rem;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
